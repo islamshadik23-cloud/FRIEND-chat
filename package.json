@@ -1,7 +1,7 @@
 {
   "name": "adda-chat",
-  "version": "2.0.0",
-  "description": "Adda \u2014 friends-only glass chat PWA (30-min disappearing messages, edit/unsend/pin/reply/reactions, profile photos, themes, admin monitor)",
+  "version": "3.0.0",
+  "description": "Adda — friends-only glass chat PWA (24-hour disappearing messages, voice notes, read receipts, search, push notifications, edit/unsend/pin/reply/reactions, profile photos, themes, admin monitor)",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "multer": "^2.0.0",
-    "socket.io": "^4.7.5"
+    "socket.io": "^4.7.5",
+    "web-push": "^3.6.7"
   }
 }
